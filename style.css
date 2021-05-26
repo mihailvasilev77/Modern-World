@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(https://image.freepik.com/free-vector/abstract-minimal-white-background_23-2148887988.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    margin: 0;
+}
+h1 {
+    color: #333;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h2{
+    color: #333;
+    text-align:center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3 {
+    padding-left: 20px;
+    color: #3032b3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    padding-left: 20px;
+    color:#2f8c9c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pad {
+padding-left: 20px;
+}
+#design {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+#design td, #design th {
+border: 1px solid rgb(131, 127, 127);
+padding: 8px;
+}
+#design tr:nth-child(even){background-color: #f2f2f2;}
+#design th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #51cce2;
+color: white;
+}
+
+.topm{
+    margin-top: 40px;
+}
+
+.middle{
+text-align: center;
+}
+.bt2{
+display: inline-block;
+width: 45px;
+height: 45px;
+background-color: #e0e0e0;
+margin: 10px;
+text-align: center;
+border-radius: 30%;
+box-shadow: 0 5px 15px -5px #00000070;
+color: #51cce2;
+position: relative;
+
+}
+.bt2 i{
+line-height: 45px;
+font-size: 30px;
+transition: 0.2s linear;
+}
+.bt2:hover i{
+transform: scale(1.3);
+color: #f1f1f1;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
